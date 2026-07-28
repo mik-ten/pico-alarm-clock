@@ -29,7 +29,7 @@ It displays the current time on a 16x2 I2C LCD and activates a passive buzzer wh
 
 - MicroPython
 - Thonny IDE
-- `I2C_LCD` library for controlling the LCD
+- `I2C_LCD.py` and `LCD_API.py` for controlling the LCD
 
 ## How it works
 
@@ -40,9 +40,11 @@ A future version is planned to use physical controls, allowing the clock and ala
 
 ## Dependencies and credits
 
-This project uses Freenove's `I2C_LCD` MicroPython library to control the LCD. The library is not included in this repository.
+This project uses Freenove's `I2C_LCD.py` and `LCD_API.py` MicroPython files to control the LCD. These files are not included in this repository and must be installed on the Raspberry Pi Pico alongside `main.py`.
 
-The LCD library is licensed under CC BY-NC-SA 3.0. The alarm clock logic in `main.py` is my own work.
+They can be downloaded from the [Freenove LCD Module repository](https://github.com/Freenove/Freenove_LCD_Module).
+
+The LCD library files are licensed under CC BY-NC-SA 3.0. The alarm clock logic in `main.py` is my own work.
 
 ## Project status
 
@@ -61,7 +63,7 @@ Working prototype. The clock, LCD display and alarm buzzer are functioning, but 
 
 1. Connect the Raspberry Pi Pico 2 W to a computer using USB.
 2. Open `main.py` in Thonny.
-3. Make sure the `I2C_LCD` library is installed on the Pico.
+3. Make sure `I2C_LCD.py` and `LCD_API.py` are installed on the Pico.
 4. Run the program.
 5. Enter the current hour, minute and second in the console.
 6. Enter the desired alarm hour and minute.
