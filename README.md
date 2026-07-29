@@ -2,6 +2,8 @@
 A digital alarm clock built with a Raspberry Pi Pico 2 W and MicroPython. 
 It displays the current time on a 16x2 I2C LCD and activates a passive buzzer when the selected alarm time is reached.
 
+![Working Raspberry Pi Pico 2 W alarm clock prototype](images/prototype-overview.png)
+
 ## Features
 
 - The current hour, minute and second can be set through the console, along with the alarm time.
@@ -49,6 +51,8 @@ The LCD library files are licensed under CC BY-NC-SA 3.0. The alarm clock logic 
 ## Project status
 
 Working prototype. The clock, LCD display and alarm buzzer are functioning, but the current time and alarm time must still be entered through a connected computer.
+
+![LCD displaying the current time](images/lcd-display.png)
 
 ## Planned improvements
 
