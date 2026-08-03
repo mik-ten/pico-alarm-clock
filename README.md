@@ -48,6 +48,16 @@ They can be downloaded from the [Freenove LCD Module repository](https://github.
 
 The LCD library files are licensed under CC BY-NC-SA 3.0. The alarm clock logic in `main.py` is my own work.
 
+## 3D-printed enclosure
+
+Development of a modular two-piece enclosure is in progress.
+
+Front panel version 05 has been designed in Fusion 360 and physically test printed. It includes an LCD opening, LCD mounting posts, a sound grille and a rear buzzer clip.
+
+The remaining enclosure will be designed as a single box-shaped body, with the front panel attached as a removable front cover.
+
+- [Front panel design files and documentation](enclosure/front-panel)
+
 ## Project status
 
 Working prototype. The clock, LCD display and alarm buzzer are functioning, but the current time and alarm time must still be entered through a connected computer.
@@ -61,7 +71,7 @@ Working prototype. The clock, LCD display and alarm buzzer are functioning, but 
 - Menu system shown on the LCD
 - Alternating buzzer tones using two different frequencies
 - Portable power supply
-- 3D-printed enclosure
+- Complete the main enclosure body and front-panel mounting system
 
 ## Running the project
 
