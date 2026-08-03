@@ -36,6 +36,16 @@ The following files for front panel version 05 are stored in this folder:
 - [Fusion 360 source file](Front_panel_v05.f3d)
 - [3MF print file](Front_panel_v05.3mf)
 
+## Photos
+
+### Front view
+
+<img src="../../images/front_panel_v05_front.jpg" alt="Front view of front panel version 05" width="700">
+
+### Rear view
+
+<img src="../../images/front_panel_v05_rear.jpg" alt="Rear view showing the LCD mounting posts and buzzer clip" width="700">
+
 ## Planned improvements
 
 In a future iteration, three openings for tactile buttons will be added to the right side of the front panel. Matching 3D-printed button caps will also be designed and tested.
