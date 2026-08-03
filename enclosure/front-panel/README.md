@@ -23,7 +23,7 @@ The LCD opening is positioned 10 mm to the right of the panel centre.
 - Seven-hole sound grille for the buzzer
 - Four rear mounting posts for the LCD
 - Rear C-shaped clip for the buzzer
-- Designed as part of a modular three-piece enclosure
+- Designed as the removable front cover of a modular two-piece enclosure
 
 ## Material
 
