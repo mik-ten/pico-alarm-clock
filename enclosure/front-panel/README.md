@@ -31,7 +31,10 @@ The prototype was printed using orange PLA+ 2.0.
 
 ## Files
 
-The Fusion 360 source file, STL file and 3MF print file will be stored in this folder.
+The following files for front panel version 05 are stored in this folder:
+
+- [Fusion 360 source file](Front_panel_v05.f3d)
+- [3MF print file](Front_panel_v05.3mf)
 
 ## Planned improvements
 
