@@ -15,6 +15,7 @@ It displays the current time on a 16x2 I2C LCD and activates a passive buzzer wh
 - 16x2 LCD with I2C interface
 - Passive buzzer
 - Female-to-female jumper wires
+- 3 tactile push buttons for Up, Down and Menu/OK controls
 
 ## Pin connections
 
@@ -23,9 +24,11 @@ It displays the current time on a 16x2 I2C LCD and activates a passive buzzer wh
 | LCD SDA | GP4 (physical pin 6) |
 | LCD SCL | GP5 (physical pin 7) |
 | LCD GND | GND (physical pin 8) |
-| LCD VCC | VSYS (physical pin 39) |
+| LCD VCC | VBUS (physical pin 40) |
 | Passive buzzer signal | GP15 (physical pin 20) |
 | Passive buzzer ground | GND |
+| Menu/OK button | GP14 (physical pin 19) |
+| Menu/OK button ground | GND |
 
 ## Software
 
@@ -38,7 +41,7 @@ It displays the current time on a 16x2 I2C LCD and activates a passive buzzer wh
 The clock advances once per second using `ticks_ms()` and `ticks_diff()`. 
 The current time is shown on the LCD, and the buzzer produces a 2000 Hz tone for ten seconds when the selected alarm time is reached.
 
-A future version is planned to use physical controls, allowing the clock and alarm to be configured directly on the device without a connected computer.
+Physical button input is currently being integrated. The first Menu/OK button has been successfully tested on GP14 using the Pico's internal pull-up resistor.
 
 ## Dependencies and credits
 
@@ -60,13 +63,14 @@ The remaining enclosure will be designed as a single box-shaped body, with the f
 
 ## Project status
 
-Working prototype. The clock, LCD display and alarm buzzer are functioning, but the current time and alarm time must still be entered through a connected computer.
+Working prototype. The clock, LCD display and alarm buzzer are functioning. The first physical Menu/OK button has also been successfully tested on GP14. 
+Time and alarm configuration through the physical controls and LCD menu is currently under development.
 
 ![LCD displaying the current time](images/lcd-display.png)
 
 ## Planned improvements
 
-- Physical buttons for setting the time and alarm
+- Integrate Up, Down and Menu/OK buttons for setting the time and alarm
 - Alarm on/off control
 - Menu system shown on the LCD
 - Alternating buzzer tones using two different frequencies
